@@ -17,6 +17,8 @@ A Laravel-based application for user registration with photo upload, email notif
    ```bash
    git clone https://github.com/jayeshpawar28/registrationApp.git
    cd registrationApp
+   php artisan serve
+   php artisan queue:work
 2. Use this cmd for Queue (Important)
     php artisan queue:work
 
